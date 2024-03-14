@@ -216,9 +216,9 @@ async def _(event):
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع محمديون"))
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
-        channel_entity = await sython.get_entity(bot_usernameee)
+        channel_entity = await sython.get_entity(bot_usernameeeee)
         await sython.send_message('@Ershkalibot', 'جاري التجميع بواسطة | 𝗦𝗢𝗨𝗥𝗖𝗘 𝗕𝗗𝗧𝗛𝗢𝗡')
-        channel_entity = await sython.get_entity(bot_usernameee)
+        channel_entity = await sython.get_entity(bot_usernameeeee)
         await sython.send_message('@Ershkalibot', '/start')
         await asyncio.sleep(5)
         msg0 = await sython.get_messages('@g6u_bot', limit=1)
